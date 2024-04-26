@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <UiLayer />
-      <Canvas shadows camera={{ position: [3, 3, 3], fov: 55 }}>
+      <Canvas shadows camera={{ position: [10, 3, -100], fov: 55 }}>
         <color attach="background" args={["#ececec"]} />
         <Experience />
       </Canvas>
