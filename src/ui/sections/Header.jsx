@@ -3,9 +3,11 @@ import { useExperience } from "../../store";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Header() {
-  const count = useExperience((state) => state.count);
-  const increaseCount = useExperience((state) => state.increaseCount);
-  const decreaseCount = useExperience((state) => state.decreaseCount);
+  const { count, increaseCount, decreaseCount } = useExperience((state) => ({
+    count: state.count,
+    increaseCount: state.increaseCount,
+    decreaseCount: state.decreaseCount,
+  }));
 
   return (
     <div className="absolute top-0 left-0 p-4 w-full flex justify-between items-center flex-row">

@@ -21,8 +21,8 @@ Bundle: [Vite](https://github.com/vitejs/vite)
 
 ## Features
 
-- **3D Scene**: A basic 3D scene with a rotating cube.
-- **UI Layer**: A basic UI layer with a header and a footer.
+- **3D Scene**: A basic 3D scene with a counter and animated cubes.
+- **UI Layer**: A basic UI layer with a counter and buttons.
 - **Routing**: A basic routing setup with a home and about page.
 - **State Management**: A basic state management setup with a global store.
 - **Styling**: A basic styling setup with Tailwind CSS.
@@ -30,4 +30,4 @@ Bundle: [Vite](https://github.com/vitejs/vite)
 
 ## Attribution
 
-This project uses the [R3F-vite-starter](https://github.com/wass08/r3f-vite-starter) as a basis. Use this if you don't require as much tooling as in this project.
+This project uses the [R3F-vite-starter](https://github.com/wass08/r3f-vite-starter) as a basis. Use this if you don't require as much UI-Layer features.
